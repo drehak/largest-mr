@@ -1,6 +1,6 @@
 # Attempt at the largest MR diff number possible: +82,556,506 lines
 
-**In short: (+82,556,506)[https://github.com/drehak/largest-mr/pull/3] seems to work, while (+82,556,507)[https://github.com/drehak/largest-mr/pull/4] does not.**
+**In short: [+82,556,506](https://github.com/drehak/largest-mr/pull/3) seems to work, while [+82,556,507](https://github.com/drehak/largest-mr/pull/4) does not.**
 
 ---
 
@@ -14,4 +14,4 @@ remote: warning: GH001: Large files detected. You may want to try Git Large File
 
 This, however, doesn't seem to affect whether the number shows or not.
 
-As for other techniques I tried, I shortened file names, branch names and commiter email + name as much as possible (hence the single letters everywhere). Despite `git --format-patch @~` producing a smaller file, this doesn't seem to matter here. Ironically, my first attempt without shortening everything got me to (+82,556,507)[https://github.com/drehak/largest-mr/pull/1], but it doesn't show anymore and I failed to reach it again. It is what it is.
+As for other techniques I tried, I shortened file names, branch names and commiter email + name as much as possible (hence the single letters everywhere). Despite `git --format-patch @~` producing a smaller file, this doesn't seem to matter here. Ironically, my first attempt without shortening everything got me to [+82,556,507](https://github.com/drehak/largest-mr/pull/1), but it doesn't show anymore and I failed to reach it again. It is what it is.
